@@ -26,7 +26,7 @@ function Form(props) {
     <>
         <div className="card">
           <div className="card-body">
-            <h1>Log Your Goals For This Bootcamp</h1>
+            <h1 className="heading">Log Your Goals For This Bootcamp</h1>
             <div className="mb-3">
               <label for="exampleFormControlInput1" className="form-label">Title</label>
               <input 
@@ -44,7 +44,7 @@ function Form(props) {
                 id="exampleFormControlTextarea1" 
                 rows="3"></textarea>
             </div>
-            <button type="button"  onClick={onHandlerSubmit} className="btn btn-primary btn-lg">Save</button>
+            <button type="button"  onClick={onHandlerSubmit} className="btn btn-dark btn-lg">Save</button>
           </div>
         </div>
     </>

@@ -12,7 +12,10 @@ function Home() {
       }
 
       const deleteFromList = (id)=>{
-        console.log(id);
+        let tempList = [...list];
+        tempList.splice(id-1 ,1);
+        setList(tempList);
+        console.log(tempList);
       }
 
   return (
